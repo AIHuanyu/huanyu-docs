@@ -25,15 +25,19 @@ export default defineConfig({
       {
         text: "静态网站",
         items: [
-          { text: "技术选型", link: UrlStaticWebsite + "technology-selection" },
-          { text: "域名解析", link: UrlStaticWebsite + "dns" },
-        ],
-      },
-      {
-        text: "静态网站",
-        items: [
-          { text: "技术选型", link: UrlStaticWebsite + "technology-selection" },
-          { text: "域名解析", link: UrlStaticWebsite + "dns" },
+          {
+            text: "网站部署",
+            // link: UrlStaticWebsite + "technology-selection",
+            items: [
+              {
+                text: "技术选型",
+                link: UrlStaticWebsite + "technology-selection",
+              },
+              { text: "域名解析", link: UrlStaticWebsite + "dns" },
+              { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
+              { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
+            ],
+          },
         ],
       },
     ],
