@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "AI寰宇空间"
+  # text: ""
+  tagline: 关于AI、GIS、技术、产品等知识的构建与分享
   actions:
     - theme: brand
       text: Markdown Examples
