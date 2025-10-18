@@ -38,13 +38,25 @@ export default defineConfig({
               { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
             ],
           },
+          {
+            text: "VitePress改造",
+            // link: UrlStaticWebsite + "technology-selection",
+            items: [
+              {
+                text: "增加创建日期",
+                link: UrlStaticWebsite + "create-date",
+              }
+            ],
+          },
         ],
       },
     ],
     lastUpdated: {
-      text: "最后更新于",
+      text: "最后更新时间",
       formatOptions: {
-        dateStyle: "full",
+        year: "numeric", // 数字格式的年（2025）
+        month: "2-digit", // 两位数的月（10）
+        day: "2-digit", // 两位数的日（20）
       },
     },
     socialLinks: [{ icon: "github", link: "https://github.com/AIHuanyu" }],
