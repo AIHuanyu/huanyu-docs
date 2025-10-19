@@ -3,7 +3,7 @@ export default [
     text: "小程序",
     items: [
       {
-        text: "什么是小程序?",
+        text: "引入Vant",
         link: "/docs/mini-app/",
       },
     ],
