@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 const UrlStaticWebsite = "/docs/static-website/";
+const UrlHuanyu = "/docs/huanyu/";
+const UrlGisshow = "/docs/gisshow/";
+
 export default defineConfig({
   title: "AI寰宇空间",
   description: "寰宇无界，AI 无限 —— AI寰宇空间，分享个人技术与思考",
@@ -17,44 +20,71 @@ export default defineConfig({
   },
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
+      { text: "主页", link: "/" },
       { text: "静态网站", link: UrlStaticWebsite + "technology-selection" },
     ],
-
-    sidebar: [
-      {
-        text: "静态网站",
-        items: [
-          {
-            text: "搭建部署",
-            // link: UrlStaticWebsite + "technology-selection",
-            items: [
-              {
-                text: "技术选型",
-                link: UrlStaticWebsite + "technology-selection",
-              },
-              { text: "域名解析", link: UrlStaticWebsite + "dns" },
-              { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
-              { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
-            ],
-          },
-          {
-            text: "VitePress改造",
-            // link: UrlStaticWebsite + "technology-selection",
-            items: [
-              {
-                text: "增加创建日期",
-                link: UrlStaticWebsite + "vitepress-createddate",
-              },
-              {
-                text: "增加文章标题",
-                link: UrlStaticWebsite + "vitepress-title",
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      "/docs/gisshow/": [
+        {
+          text: "GisShow(集思秀)",
+          items: [
+            {
+              text: "什么是gisshow?",
+              link: UrlGisshow,
+            },
+          ],
+        },
+      ],
+      "/docs/huanyu/": [
+        {
+          text: "huanyu",
+          items: [
+            {
+              text: "什么是huanyu?",
+              link: UrlHuanyu,
+            },
+            {
+              text: "快速开始",
+              link: UrlHuanyu + "getting-started",
+            },
+          ],
+        },
+      ],
+      "/docs/static-website/": [
+        {
+          text: "静态网站",
+          items: [
+            {
+              text: "搭建部署",
+              // link: UrlStaticWebsite + "technology-selection",
+              items: [
+                {
+                  text: "技术选型",
+                  link: UrlStaticWebsite + "technology-selection",
+                },
+                { text: "域名解析", link: UrlStaticWebsite + "dns" },
+                { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
+                { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
+              ],
+            },
+            {
+              text: "VitePress改造",
+              // link: UrlStaticWebsite + "technology-selection",
+              items: [
+                {
+                  text: "增加创建日期",
+                  link: UrlStaticWebsite + "vitepress-createddate",
+                },
+                {
+                  text: "增加文章标题",
+                  link: UrlStaticWebsite + "vitepress-title",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
     lastUpdated: {
       text: "最后更新时间",
       formatOptions: {
