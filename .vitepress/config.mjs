@@ -26,7 +26,7 @@ export default defineConfig({
         text: "静态网站",
         items: [
           {
-            text: "网站部署",
+            text: "搭建部署",
             // link: UrlStaticWebsite + "technology-selection",
             items: [
               {
@@ -44,8 +44,12 @@ export default defineConfig({
             items: [
               {
                 text: "增加创建日期",
-                link: UrlStaticWebsite + "create-date",
-              }
+                link: UrlStaticWebsite + "vitepress-createddate",
+              },
+              {
+                text: "增加文章标题",
+                link: UrlStaticWebsite + "vitepress-title",
+              },
             ],
           },
         ],

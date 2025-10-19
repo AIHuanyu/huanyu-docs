@@ -1,6 +1,6 @@
 <template>
   <div v-if="$frontmatter.date" class="create-time">
-    文档创建时间组件: {{ $frontmatter.date }}
+    文档创建时间: {{ $frontmatter.date }}
   </div>
 </template>
 
