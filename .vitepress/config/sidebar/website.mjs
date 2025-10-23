@@ -15,7 +15,7 @@ export default [
           { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
           { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
           { text: "SSL与TLS", link: UrlStaticWebsite + "tls" },
-          { text: "服务器", link: UrlStaticWebsite + "esc" },
+          { text: "服务器", link: UrlStaticWebsite + "server" },
         ],
       },
       {

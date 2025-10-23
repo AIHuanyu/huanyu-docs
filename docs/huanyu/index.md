@@ -1,5 +1,5 @@
 ---
-date: '2024/01/01'
+date: '2024-01-01'
 ---
 [huanyu](https://www.npmjs.com/package/huanyu)是用于提供GIS地图前端开发常用API的npm库，包括二维地图、三维地图以及与地图相关的算法API。  
 The repository is used to provide common APIs for GIS map front-end development, including 2D map, 3D map, and map-related algorithm APIs.  

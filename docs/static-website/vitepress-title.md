@@ -1,6 +1,6 @@
 --- 
 title: VitePress增加文章标题
-date: '2025/10/19'
+date: '2025-10-19'
 ---
 按照创建日期的方式，使用布局插槽`page-title`在文章顶部显示文章标题，是否显示根据`frontmatter`中的`title`字段判断。
 

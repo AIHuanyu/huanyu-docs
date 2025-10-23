@@ -3,6 +3,7 @@ import miniappSidebar from "./config/sidebar/miniapp.mjs";
 import gisshowSidebar from "./config/sidebar/gisshow.mjs";
 import huanyuSidebar from "./config/sidebar/huanyu.mjs";
 import websiteSidebar from "./config/sidebar/website.mjs";
+import JavaScriptSidebar from "./config/sidebar/javascript.mjs";
 
 export default defineConfig({
   title: "AI寰宇空间",
@@ -21,6 +22,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
+      { text: "JavaScript", link: "/docs/javascript/short-circuit" },
       { text: "小程序", link: "/docs/mini-app/" },
       { text: "静态网站", link: "/docs/static-website/technology-selection" },
     ],
@@ -33,9 +35,7 @@ export default defineConfig({
     lastUpdated: {
       text: "最后更新时间",
       formatOptions: {
-        year: "numeric", // 数字格式的年（2025）
-        month: "2-digit", // 两位数的月（10）
-        day: "2-digit", // 两位数的日（20）
+        dateStyle: "long",
       },
     },
     socialLinks: [{ icon: "github", link: "https://github.com/AIHuanyu" }],

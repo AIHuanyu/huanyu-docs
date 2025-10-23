@@ -1,5 +1,5 @@
 ---
-date: '2024/01/01'
+date: '2024-01-01'
 ---
 快速安装使用 [`huanyu` package](https://www.npmjs.com/package/huanyu):
 
