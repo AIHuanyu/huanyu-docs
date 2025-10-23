@@ -1,34 +1,32 @@
-const UrlStaticWebsite = "/docs/static-website/";
+const UrlWebsite = "/docs/website/";
 export default [
   {
-    text: "静态网站",
     items: [
       {
-        text: "搭建部署",
-        // link: UrlStaticWebsite + "technology-selection",
+        text: "基础知识",
         items: [
           {
             text: "技术选型",
-            link: UrlStaticWebsite + "technology-selection",
+            link: UrlWebsite + "technology-selection",
           },
-          { text: "域名解析", link: UrlStaticWebsite + "dns" },
-          { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
-          { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
-          { text: "SSL与TLS", link: UrlStaticWebsite + "tls" },
-          { text: "服务器", link: UrlStaticWebsite + "server" },
+          { text: "域名解析", link: UrlWebsite + "dns" },
+          { text: "YAML 语言", link: UrlWebsite + "yaml" },
+          { text: "Frontmatter", link: UrlWebsite + "frontmatter" },
+          { text: "SSL与TLS", link: UrlWebsite + "tls" },
+          { text: "服务器", link: UrlWebsite + "server" },
         ],
       },
       {
         text: "VitePress改造",
-        // link: UrlStaticWebsite + "technology-selection",
+        // link: UrlWebsite + "technology-selection",
         items: [
           {
             text: "增加创建日期",
-            link: UrlStaticWebsite + "vitepress-createddate",
+            link: UrlWebsite + "vitepress-createddate",
           },
           {
             text: "增加文章标题",
-            link: UrlStaticWebsite + "vitepress-title",
+            link: UrlWebsite + "vitepress-title",
           },
         ],
       },

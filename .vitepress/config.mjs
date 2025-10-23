@@ -24,13 +24,13 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "JavaScript", link: "/docs/javascript/short-circuit" },
       { text: "小程序", link: "/docs/mini-app/" },
-      { text: "静态网站", link: "/docs/static-website/technology-selection" },
+      { text: "网站搭建", link: "/docs/website/technology-selection" },
     ],
     sidebar: {
       "/docs/mini-app/": miniappSidebar,
       "/docs/gisshow/": gisshowSidebar,
       "/docs/huanyu/": huanyuSidebar,
-      "/docs/static-website/": websiteSidebar,
+      "/docs/website/": websiteSidebar,
     },
     lastUpdated: {
       text: "最后更新时间",
