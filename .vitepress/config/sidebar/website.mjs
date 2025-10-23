@@ -14,6 +14,8 @@ export default [
           { text: "域名解析", link: UrlStaticWebsite + "dns" },
           { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
           { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
+          { text: "SSL与TLS", link: UrlStaticWebsite + "tls" },
+          { text: "服务器", link: UrlStaticWebsite + "esc" },
         ],
       },
       {
