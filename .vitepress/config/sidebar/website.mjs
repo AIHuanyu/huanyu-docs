@@ -14,6 +14,7 @@ export default [
           { text: "Frontmatter", link: UrlWebsite + "frontmatter" },
           { text: "SSL与TLS", link: UrlWebsite + "tls" },
           { text: "服务器", link: UrlWebsite + "server" },
+          { text: "ICP备案", link: UrlWebsite + "icp" },
         ],
       },
       {
@@ -27,6 +28,23 @@ export default [
           {
             text: "增加文章标题",
             link: UrlWebsite + "vitepress-title",
+          },
+        ],
+      },
+      {
+        text: "服务器部署",
+        items: [
+          {
+            text: "安装MySQL",
+            link: UrlWebsite + "install-mysql",
+          },
+          {
+            text: "安装Java",
+            link: UrlWebsite + "install-java",
+          },
+          {
+            text: "安装Nginx",
+            link: UrlWebsite + "install-nginx",
           },
         ],
       },
