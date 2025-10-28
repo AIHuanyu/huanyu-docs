@@ -18,6 +18,10 @@ export default [
         text: "本地存储",
         link: "/docs/mini-app/storage.md",
       },
+      {
+        text: "域名接口",
+        link: "/docs/mini-app/domain.md",
+      },
     ],
   },
 ];
