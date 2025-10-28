@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
-
-const UrlStaticWebsite = "/docs/static-website/";
-const UrlHuanyu = "/docs/huanyu/";
-const UrlGisshow = "/docs/gisshow/";
+import miniappSidebar from "./config/sidebar/miniapp.mjs";
+import gisshowSidebar from "./config/sidebar/gisshow.mjs";
+import huanyuSidebar from "./config/sidebar/huanyu.mjs";
+import websiteSidebar from "./config/sidebar/website.mjs";
 
 export default defineConfig({
   title: "AI寰宇空间",
@@ -21,69 +21,14 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
-      { text: "静态网站", link: UrlStaticWebsite + "technology-selection" },
+      { text: "小程序", link: "/docs/mini-app/" },
+      { text: "静态网站", link: "/docs/static-website/technology-selection" },
     ],
     sidebar: {
-      "/docs/gisshow/": [
-        {
-          text: "GisShow(集思秀)",
-          items: [
-            {
-              text: "什么是gisshow?",
-              link: UrlGisshow,
-            },
-          ],
-        },
-      ],
-      "/docs/huanyu/": [
-        {
-          text: "huanyu",
-          items: [
-            {
-              text: "什么是huanyu?",
-              link: UrlHuanyu,
-            },
-            {
-              text: "快速开始",
-              link: UrlHuanyu + "getting-started",
-            },
-          ],
-        },
-      ],
-      "/docs/static-website/": [
-        {
-          text: "静态网站",
-          items: [
-            {
-              text: "搭建部署",
-              // link: UrlStaticWebsite + "technology-selection",
-              items: [
-                {
-                  text: "技术选型",
-                  link: UrlStaticWebsite + "technology-selection",
-                },
-                { text: "域名解析", link: UrlStaticWebsite + "dns" },
-                { text: "YAML 语言", link: UrlStaticWebsite + "yaml" },
-                { text: "Frontmatter", link: UrlStaticWebsite + "frontmatter" },
-              ],
-            },
-            {
-              text: "VitePress改造",
-              // link: UrlStaticWebsite + "technology-selection",
-              items: [
-                {
-                  text: "增加创建日期",
-                  link: UrlStaticWebsite + "vitepress-createddate",
-                },
-                {
-                  text: "增加文章标题",
-                  link: UrlStaticWebsite + "vitepress-title",
-                },
-              ],
-            },
-          ],
-        },
-      ],
+      "/docs/mini-app/": miniappSidebar,
+      "/docs/gisshow/": gisshowSidebar,
+      "/docs/huanyu/": huanyuSidebar,
+      "/docs/static-website/": websiteSidebar,
     },
     lastUpdated: {
       text: "最后更新时间",
