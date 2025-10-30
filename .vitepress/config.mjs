@@ -24,9 +24,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
-      { text: "JavaScript", link: "/docs/javascript/short-circuit" },
+      { text: "JavaScript", link: "/docs/javascript" },
       { text: "小程序", link: "/docs/mini-app" },
-      { text: "Linux", link: "/docs/linux/wget" },
+      { text: "Linux", link: "/docs/linux" },
       { text: "软件设计", link: "/docs/design" },
       { text: "网站搭建", link: "/docs/website" },
     ],
