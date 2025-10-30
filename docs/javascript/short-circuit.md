@@ -87,8 +87,8 @@ const userId = fromUrl || fromCookie || fromStorage || "default-id";
 ```
 ## 4. ??
 ### 4.1. 说明
-核心规则：专门针对 null 和 undefined 的短路判断 —— 左侧为 null 或 undefined 时返回右侧，否则返回左侧。  
-这是对 || 的补充，解决了 || 误判 0、'' 等有效假值的问题 。      
+??（空值合并运算符）是在 ECMAScript 2020（也称为 ES11）中引入的特性，于 2020 年 6 月正式标准化。  
+它主要解决了逻辑或（||）在处理默认值时的一个痛点：|| 会将 0、""、false 等 “假值” 视为无效值，而 ?? 仅对 null 或 undefined 生效，更适合用于 “设置默认值” 的场景。      
 代码示例：
 ```js
 // 左侧为null/undefined，返回右侧
