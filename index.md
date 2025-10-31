@@ -12,7 +12,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/AIHuanyu
-
+  image:
+    src: /aihuanyu.space-logo-large.png
+    alt: aihuanyu.space
 features:
   - title: huanyu
     details: 提供GIS地图前端开发常用API，包括二维地图、三维地图以及与地图相关的算法API
