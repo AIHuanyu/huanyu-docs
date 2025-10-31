@@ -22,7 +22,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: "/aihuanyu.space-logo-100.png",
+    logo: "/aihuanyu.space-logo-small.svg",
     nav: [
       { text: "主页", link: "/" },
       { text: "JavaScript", link: "/docs/javascript" },

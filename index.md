@@ -13,7 +13,7 @@ hero:
       text: GitHub
       link: https://github.com/AIHuanyu
   image:
-    src: /aihuanyu.space-logo-large.png
+    src: /aihuanyu.space-logo-large.svg
     alt: aihuanyu.space
 features:
   - title: huanyu

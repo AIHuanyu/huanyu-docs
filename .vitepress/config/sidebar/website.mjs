@@ -21,6 +21,7 @@ export default [
           },
           { text: "YAML 语言", link: UrlWebsite + "yaml" },
           { text: "Frontmatter", link: UrlWebsite + "frontmatter" },
+          { text: "图片与图标", link: UrlWebsite + "vitepress-image" },
           {
             text: "增加创建日期",
             link: UrlWebsite + "vitepress-createddate",
