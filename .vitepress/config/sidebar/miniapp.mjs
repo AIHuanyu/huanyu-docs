@@ -4,7 +4,7 @@ export default [
     items: [
       {
         text: "引入Vant",
-        link: "/docs/mini-app/",
+        link: "/docs/mini-app/vant",
       },
       {
         text: "获取openid",

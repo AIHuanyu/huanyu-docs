@@ -7,11 +7,11 @@ hero:
   tagline: 关于AI、GIS、技术、产品等知识的构建与分享
   actions:
     - theme: brand
-      text: 建站指南
-      link: /docs/static-website/technology-selection
+      text: 关于作者
+      link: /docs/meta/about.md
     - theme: alt
-      text: DNS解析
-      link: /docs/static-website/dns
+      text: GitHub
+      link: https://github.com/AIHuanyu
 
 features:
   - title: huanyu
@@ -20,8 +20,8 @@ features:
   - title: GisShow(集思秀)
     details: 基于OpenLayers、Leaflet等前端技术开发的GIS可视化工具，集成了众多常用的GIS功能模块
     link: /docs/gisshow/index.md
-  - title: 产品介绍
+  - title: 网站搭建
     details: 介绍AI寰宇空间的产品功能、使用方法、用户案例等
-    link: /docs/static-website/technology-selection
+    link: /docs/website/index.md
 ---
 
