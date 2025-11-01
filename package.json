@@ -1,6 +1,6 @@
 {
   "name": "huanyu-docs",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
   },
