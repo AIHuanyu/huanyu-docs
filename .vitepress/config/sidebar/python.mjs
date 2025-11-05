@@ -9,19 +9,19 @@ export default [
         items: [
           {
             text: "遥遥领先",
-            link: UrlDocs + "/01/01",
+            link: UrlDocs + "/overview/tiobe",
           },
           {
             text: "关于Python",
-            link: UrlDocs + "/01/02",
+            link: UrlDocs + "/overview/about",
           },
           {
             text: "安装Python双版本",
-            link: UrlDocs + "/01/03",
+            link: UrlDocs + "/overview/install",
           },
           {
             text: "Python2安装软件",
-            link: UrlDocs + "/01/04",
+            link: UrlDocs + "/overview/python2",
           },
         ],
       },
