@@ -31,31 +31,31 @@ export default [
         items: [
           {
             text: "注释、标识符、关键字",
-            link: UrlDocs + "/02/01",
+            link: UrlDocs + "/basic/comment",
           },
           {
             text: "变量",
-            link: UrlDocs + "/02/02",
+            link: UrlDocs + "/basic/variable",
           },
           {
             text: "代码缩进",
-            link: UrlDocs + "/02/03",
+            link: UrlDocs + "/basic/indent",
           },
           {
             text: "基本数据类型",
-            link: UrlDocs + "/02/04",
+            link: UrlDocs + "/basic/basic-data-types",
           },
           {
             text: "高级数据类型",
-            link: UrlDocs + "/02/05",
+            link: UrlDocs + "/basic/advanced-data-types",
           },
           {
             text: "运算符",
-            link: UrlDocs + "/02/06",
+            link: UrlDocs + "/basic/operator",
           },
           {
             text: "流程控制",
-            link: UrlDocs + "/02/07",
+            link: UrlDocs + "/basic/control-flow",
           },
         ],
       },
