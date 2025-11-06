@@ -65,15 +65,15 @@ export default [
         items: [
           {
             text: "函数基础",
-            link: UrlDocs + "/03/01",
+            link: UrlDocs + "/function/basic-function",
           },
           {
             text: "匿名函数",
-            link: UrlDocs + "/03/02",
+            link: UrlDocs + "/function/anonymous-function",
           },
           {
             text: "高阶函数",
-            link: UrlDocs + "/03/03",
+            link: UrlDocs + "/function/higher-order-function",
           },
         ],
       },
