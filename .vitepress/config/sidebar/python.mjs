@@ -5,7 +5,7 @@ export default [
     items: [
       {
         text: "你好, Python",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "遥遥领先",
@@ -27,7 +27,7 @@ export default [
       },
       {
         text: "Python基础",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "注释、标识符、关键字",
@@ -61,7 +61,7 @@ export default [
       },
       {
         text: "函数",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "函数基础",
@@ -79,109 +79,109 @@ export default [
       },
       {
         text: "面向对象",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "理解面向对象",
-            link: UrlDocs + "/04/01",
+            link: UrlDocs + "/oop",
           },
           {
             text: "抽象性",
-            link: UrlDocs + "/04/02",
+            link: UrlDocs + "/oop/abstract",
           },
           {
             text: "封装性",
-            link: UrlDocs + "/04/03",
+            link: UrlDocs + "/oop/encapsulation",
           },
           {
             text: "继承性",
-            link: UrlDocs + "/04/04",
+            link: UrlDocs + "/oop/inheritance",
           },
           {
             text: "多态性",
-            link: UrlDocs + "/04/05",
+            link: UrlDocs + "/oop/polymorphism",
           },
         ],
       },
       {
         text: "异常处理",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "常见异常",
-            link: UrlDocs + "/05/01",
+            link: UrlDocs + "/exception/common-exceptions",
           },
           {
             text: "堆栈跟踪traceback",
-            link: UrlDocs + "/05/02",
+            link: UrlDocs + "/exception/traceback",
           },
           {
             text: "异常处理try/except",
-            link: UrlDocs + "/05/03",
+            link: UrlDocs + "/exception/try-except",
           },
           {
             text: "资源管理with/as",
-            link: UrlDocs + "/05/04",
+            link: UrlDocs + "/exception/with-as",
           },
         ],
       },
       {
         text: "文件访问",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "文件概述",
-            link: UrlDocs + "/06/01",
+            link: UrlDocs + "/file/file-overview",
           },
           {
             text: "文件函数",
-            link: UrlDocs + "/06/02",
+            link: UrlDocs + "/file/file-functions",
           },
           {
             text: "访问模式",
-            link: UrlDocs + "/06/03",
+            link: UrlDocs + "/file/access-modes",
           },
         ],
       },
       {
         text: "模块与包",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "模块",
-            link: UrlDocs + "/07/01",
+            link: UrlDocs + "/module/module",
           },
           {
             text: "包",
-            link: UrlDocs + "/07/02",
+            link: UrlDocs + "/module/package",
           },
           {
             text: "pip",
-            link: UrlDocs + "/07/03",
+            link: UrlDocs + "/module/pip",
           },
         ],
       },
       {
         text: "MySQL",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "CRUD",
-            link: UrlDocs + "/08/01",
+            link: UrlDocs + "/mysql/crud",
           },
           {
             text: "安全实践",
-            link: UrlDocs + "/08/02",
+            link: UrlDocs + "/mysql/security",
           },
         ],
       },
       {
         text: "GUI",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "理解GUI",
-            link: UrlDocs + "/09/01",
+            link: UrlDocs + "/gui",
           },
         ],
       },
