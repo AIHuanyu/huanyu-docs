@@ -10,6 +10,10 @@ export default [
             link: "/docs/mini-app/registration.md",
           },
           {
+            text: "备案",
+            link: "/docs/mini-app/record.md",
+          },
+          {
             text: "引入Vant",
             link: "/docs/mini-app/vant",
           },
