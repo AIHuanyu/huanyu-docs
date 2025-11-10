@@ -6,6 +6,10 @@ export default [
         text: "小程序基础",
         items: [
           {
+            text: "注册申请",
+            link: "/docs/mini-app/registration.md",
+          },
+          {
             text: "引入Vant",
             link: "/docs/mini-app/vant",
           },
