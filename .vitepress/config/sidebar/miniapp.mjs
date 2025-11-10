@@ -14,6 +14,10 @@ export default [
             link: "/docs/mini-app/record.md",
           },
           {
+            text: "发版",
+            link: "/docs/mini-app/publish.md",
+          },
+          {
             text: "引入Vant",
             link: "/docs/mini-app/vant",
           },
