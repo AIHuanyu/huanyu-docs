@@ -14,6 +14,10 @@ export default [
             link: "/docs/mini-app/record.md",
           },
           {
+            text: "微信认证",
+            link: "/docs/mini-app/verification.md",
+          },
+          {
             text: "发版",
             link: "/docs/mini-app/publish.md",
           },
