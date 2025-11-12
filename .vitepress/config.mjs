@@ -7,6 +7,7 @@ import javaScriptSidebar from "./config/sidebar/javascript.mjs";
 import linuxSidebar from "./config/sidebar/linux.mjs";
 import designSidebar from "./config/sidebar/design.mjs";
 import pythonSidebar from "./config/sidebar/python.mjs";
+import javaSidebar from "./config/sidebar/java.mjs";
 
 export default defineConfig({
   title: "AI寰宇空间",
@@ -28,6 +29,7 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "JavaScript", link: "/docs/javascript" },
       { text: "Python", link: "/docs/python" },
+      { text: "Java", link: "/docs/java" },
       { text: "小程序", link: "/docs/mini-app" },
       { text: "Linux", link: "/docs/linux" },
       { text: "软件设计", link: "/docs/design" },
@@ -42,6 +44,7 @@ export default defineConfig({
       "/docs/linux/": linuxSidebar,
       "/docs/design/": designSidebar,
       "/docs/python/": pythonSidebar,
+      "/docs/java/": javaSidebar,
     },
     lastUpdated: {
       text: "最后更新时间",
