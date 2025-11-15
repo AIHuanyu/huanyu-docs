@@ -16,6 +16,14 @@ export default [
             link: UrlJava + "maven-solution.md",
           },
         ],
+      }, {
+        text: "关于MyBatis",
+        items: [
+          {
+            text: "模糊查询",
+            link: UrlJava + "like.md",
+          }
+        ],
       },
     ],
   },
