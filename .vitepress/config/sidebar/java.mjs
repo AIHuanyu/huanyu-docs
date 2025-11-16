@@ -1,4 +1,5 @@
 const UrlJava = "/docs/java/";
+const UrlMyBatisPlus = UrlJava + "mybatis-plus/";
 
 export default [
   {
@@ -24,7 +25,19 @@ export default [
             link: UrlJava + "like.md",
           }
         ],
-      },
+      }, {
+        text: "关于MyBatisPlus",
+        items: [
+          {
+            text: "注解TableName",
+            link: UrlMyBatisPlus + "table-name.md",
+          },
+          {
+            text: "注解TableField",
+            link: UrlMyBatisPlus + "table-field.md",
+          },
+        ],
+      }
     ],
   },
 ];
