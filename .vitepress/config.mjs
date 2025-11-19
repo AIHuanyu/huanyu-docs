@@ -8,6 +8,7 @@ import linuxSidebar from "./config/sidebar/linux.mjs";
 import designSidebar from "./config/sidebar/design.mjs";
 import pythonSidebar from "./config/sidebar/python.mjs";
 import javaSidebar from "./config/sidebar/java.mjs";
+import aiSidebar from "./config/sidebar/ai.mjs";
 
 export default defineConfig({
   title: "AI寰宇空间",
@@ -27,15 +28,17 @@ export default defineConfig({
     logo: "/aihuanyu.space-logo-small.svg",
     nav: [
       { text: "主页", link: "/" },
-      { text: "JavaScript", link: "/docs/javascript" },
+      { text: "AI空间", link: "/docs/ai" },
       { text: "Python", link: "/docs/python" },
-      { text: "Java", link: "/docs/java" },
       { text: "小程序", link: "/docs/mini-app" },
+      { text: "JavaScript", link: "/docs/javascript" },
+      { text: "Java", link: "/docs/java" },
       { text: "Linux", link: "/docs/linux" },
       { text: "软件设计", link: "/docs/design" },
       { text: "网站搭建", link: "/docs/website" },
     ],
     sidebar: {
+      "/docs/ai/": aiSidebar,
       "/docs/mini-app/": miniappSidebar,
       "/docs/gisshow/": gisshowSidebar,
       "/docs/huanyu/": huanyuSidebar,
