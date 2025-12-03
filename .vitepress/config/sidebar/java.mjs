@@ -1,4 +1,5 @@
 const UrlJava = "/docs/java/";
+const UrlJavaPractice = UrlJava + "实战/";
 const UrlMyBatisPlus = UrlJava + "mybatis-plus/";
 
 export default [
@@ -6,6 +7,14 @@ export default [
     text: "Java文档库",
     items: [
       {
+        text: "Java实战",
+        items: [
+          {
+            text: "运算符优先级陷阱",
+            link: UrlJavaPractice + "Java字符串拼接中的运算符优先级陷阱.md",
+          }
+        ],
+      }, {
         text: "关于Maven",
         items: [
           {
