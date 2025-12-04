@@ -12,7 +12,11 @@ export default [
           {
             text: "运算符优先级陷阱",
             link: UrlJavaPractice + "Java字符串拼接中的运算符优先级陷阱.md",
-          }
+          },
+          {
+            text: "Objects.toString()",
+            link: UrlJavaPractice + "空指针异常处理利器Objects.toString.md",
+          },
         ],
       }, {
         text: "关于Maven",
