@@ -30,6 +30,10 @@ export default [
             text: "增加文章标题",
             link: UrlWebsite + "vitepress-title",
           },
+          {
+            text: "集成Mermaid",
+            link: UrlWebsite + "vitepress-mermaid",
+          }
         ],
       },
       {
