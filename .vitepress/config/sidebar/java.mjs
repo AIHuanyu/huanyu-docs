@@ -17,6 +17,10 @@ export default [
             text: "Objects.toString()",
             link: UrlJavaPractice + "空指针异常处理利器Objects.toString.md",
           },
+          {
+            text: "String.format()",
+            link: UrlJavaPractice + "String.format.md",
+          },
         ],
       }, {
         text: "关于Maven",
