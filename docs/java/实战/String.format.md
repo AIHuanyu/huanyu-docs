@@ -1,7 +1,7 @@
 ---
 title: String.format()——Java字符串格式化的艺术
 ---
-## 引言：从字符串拼接的泥沼中解脱
+## 1. 引言：从字符串拼接的泥沼中解脱
 
 还记得上一次写这样的代码是什么时候吗？
 
@@ -14,9 +14,9 @@ String message = "用户" + username + "于" + date +
 
 当变量增多、格式变复杂时，这样的代码很快就会变得难以阅读和维护。今天，让我们一起来掌握Java中更优雅的字符串构建方式——`String.format()`，它是Java版的`printf`，是字符串格式化的瑞士军刀。
 
-## 一、String.format()基础：从简单到强大
+## 2. String.format()基础：从简单到强大
 
-### 1.1 基本语法
+### 2.1 基本语法    
 
 ```java
 // 基本形式
@@ -26,7 +26,7 @@ String formatted = String.format(format, args...);
 // 格式说明符以%开头，如%s表示字符串，%d表示整数
 ```
 
-### 1.2 第一个示例：从简单开始
+### 2.2 第一个示例：从简单开始
 
 ```java
 public class BasicExample {
@@ -48,9 +48,9 @@ public class BasicExample {
 }
 ```
 
-## 二、格式说明符详解：掌握格式化语言
+## 3. 格式说明符详解：掌握格式化语言
 
-### 2.1 常用转换符
+### 3.1 常用转换符
 
 | 转换符 | 说明 | 示例 | 输出 |
 |--------|------|------|------|
@@ -65,7 +65,7 @@ public class BasicExample {
 | `%e` | 科学计数法 | `String.format("%e", 1000.0)` | `1.000000e+03` |
 | `%%` | 百分号本身 | `String.format("完成%d%%", 75)` | `完成75%` |
 
-### 2.2 完整格式说明符语法
+### 3.2 完整格式说明符语法
 
 ```
 %[argument_index$][flags][width][.precision]conversion
@@ -77,9 +77,9 @@ public class BasicExample {
 - **.precision**：精度（对于浮点数）或最大字符数（对于字符串）
 - **conversion**：转换类型（s, d, f等）
 
-## 三、实战演练：各种场景下的应用
+## 4. 实战演练：各种场景下的应用
 
-### 3.1 表格数据格式化
+### 4.1 表格数据格式化
 
 ```java
 public class TableFormatter {
@@ -122,7 +122,7 @@ public class TableFormatter {
 }
 ```
 
-### 3.2 财务金额格式化
+### 4.2 财务金额格式化
 
 ```java
 public class FinancialFormatter {
@@ -175,7 +175,7 @@ public class FinancialFormatter {
 }
 ```
 
-### 3.3 日志消息格式化
+### 4.3 日志消息格式化
 
 ```java
 public class LogFormatter {
@@ -220,9 +220,9 @@ public class LogFormatter {
 }
 ```
 
-## 四、高级技巧与模式
+## 5. 高级技巧与模式
 
-### 4.1 参数重用
+### 5.1 参数重用
 
 ```java
 public class ArgumentReuseExample {
@@ -240,7 +240,7 @@ public class ArgumentReuseExample {
 }
 ```
 
-### 4.2 与资源文件结合（国际化）
+### 5.2 与资源文件结合（国际化）
 
 ```java
 public class I18nExample {
@@ -267,7 +267,7 @@ public class I18nExample {
 }
 ```
 
-### 4.3 自定义格式化器
+### 5.3 自定义格式化器
 
 ```java
 public class CustomFormatter {
@@ -319,9 +319,9 @@ public class CustomFormatter {
 }
 ```
 
-## 五、性能考量与最佳实践
+## 6. 性能考量与最佳实践
 
-### 5.1 性能对比
+### 6.1 性能对比
 
 ```java
 public class PerformanceComparison {
@@ -369,7 +369,7 @@ public class PerformanceComparison {
 - **StringBuilder**：处理多个字符串时性能好
 - **String.format()**：性能稍差，但可读性最好，适合复杂格式化
 
-### 5.2 最佳实践
+### 6.2 最佳实践
 
 1. **何时使用String.format()**
    - 需要复杂格式化（对齐、精度等）
@@ -401,9 +401,9 @@ public class PerformanceComparison {
    String result = MessageFormat.format(pattern, "张三", 5);
    ```
 
-## 六、常见问题与解决方案
+## 7. 常见问题与解决方案
 
-### 6.1 MissingFormatArgumentException
+### 7.1 MissingFormatArgumentException
 
 ```java
 try {
@@ -416,7 +416,7 @@ try {
 }
 ```
 
-### 6.2 处理null值
+### 7.2 处理null值
 
 ```java
 // 问题：直接使用null会输出"null"
@@ -434,7 +434,7 @@ public static String safeFormat(String pattern, Object... args) {
 }
 ```
 
-### 6.3 日期时间格式化
+### 7.3 日期时间格式化
 
 ```java
 // 使用DateTimeFormatter（Java 8+推荐）
@@ -452,7 +452,7 @@ String complexDate = String.format(
 );
 ```
 
-## 七、总结：让字符串格式化成为艺术
+## 8. 总结：让字符串格式化成为艺术
 
 `String.format()`不仅仅是一个方法，它是一种声明式的字符串构建思想。通过掌握它，你可以：
 
