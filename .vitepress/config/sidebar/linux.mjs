@@ -11,6 +11,7 @@ export default [
           { text: "rpm", link: UrlLinux + "rpm" },
           { text: "yum", link: UrlLinux + "yum" },
           { text: "systemctl", link: UrlLinux + "systemctl" },
+          { text: "uname", link: UrlLinux + "uname" },
         ],
       },
     ],
