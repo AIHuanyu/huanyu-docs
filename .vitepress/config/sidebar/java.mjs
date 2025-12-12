@@ -1,6 +1,7 @@
 const UrlJava = "/docs/java/";
 const UrlJavaPractice = UrlJava + "实战/";
 const UrlMyBatisPlus = UrlJava + "mybatis-plus/";
+const UrlKafka = UrlJava + "Kafka/";
 
 export default [
   {
@@ -52,6 +53,14 @@ export default [
           {
             text: "注解TableField",
             link: UrlMyBatisPlus + "table-field.md",
+          },
+        ],
+      }, {
+        text: "Kafka",
+        items: [
+          {
+            text: "Kafka概念理解",
+            link: UrlKafka + "kafka.md",
           },
         ],
       }
