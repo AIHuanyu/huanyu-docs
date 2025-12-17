@@ -1,5 +1,4 @@
-// import { defineConfig } from "vitepress";
-import { withMermaid } from "vitepress-plugin-mermaid";
+import { defineConfig } from "vitepress";
 import miniappSidebar from "./config/sidebar/miniapp.mjs";
 import gisshowSidebar from "./config/sidebar/gisshow.mjs";
 import huanyuSidebar from "./config/sidebar/huanyu.mjs";
@@ -12,7 +11,7 @@ import javaSidebar from "./config/sidebar/java.mjs";
 import aiSidebar from "./config/sidebar/ai.mjs";
 import dockerSidebar from "./config/sidebar/docker.mjs";
 
-export default withMermaid({
+export default defineConfig({
   title: "AI寰宇空间",
   description: "寰宇无界，AI 无限 —— AI寰宇空间，分享个人技术与思考",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],

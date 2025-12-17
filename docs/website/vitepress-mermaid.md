@@ -37,3 +37,7 @@ classDiagram
     BankAccount : +deposit(amount)
     BankAccount : +withdrawal(amount)
 ```
+## 4. 版本问题
+项目中安装的 vitepress@2.0.0-alpha.13与 vitepress-plugin-mermaid@2.0.17 的对等依赖（peer dependency）要求不兼容  
+该插件明确要求 vitepress 版本为 ^1.0.0， 因此，npm 无法解析这种冲突，导致 npm install 失败  
+暂时移除 vitepress-plugin-mermaid 插件，等待后续版本更新
