@@ -22,6 +22,10 @@ export default [
             text: "String.format()",
             link: UrlJavaPractice + "String.format.md",
           },
+          {
+            text: "System.nanoTime()",
+            link: UrlJavaPractice + "System.nanoTime.md",
+          },
         ],
       }, {
         text: "关于Maven",
