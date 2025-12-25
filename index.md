@@ -11,7 +11,7 @@ hero:
       link: /docs/meta/about.md
     - theme: alt
       text: GitHub
-      link: https://github.com/AIHuanyu
+      link: https://github.com/HuanyuSpace
   image:
     src: /aihuanyu.space-logo-large.svg
     alt: aihuanyu.space
