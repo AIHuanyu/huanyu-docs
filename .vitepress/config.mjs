@@ -58,6 +58,6 @@ export default defineConfig({
         dateStyle: "long",
       },
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/AIHuanyu" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/HuanyuSpace" }],
   },
 });
